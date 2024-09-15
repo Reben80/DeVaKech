@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div>
-        <h1>DeVaKech - Derivative Sketching Challenge</h1>
+        <h1></h1>
         <Routes>
           <Route path="/" element={<PolynomialDerivativeGame />} />
           <Route path="/scoring-explanation" element={<ScoringExplanation isStandalone={true} />} />
