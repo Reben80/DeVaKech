@@ -13,11 +13,10 @@
     "react-katex": "^3.0.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^2.1.4",
-    "express": "^4.17.1"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
