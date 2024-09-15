@@ -6,10 +6,13 @@ import ScoringExplanation from './ScoringExplanation';
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<PolynomialDerivativeGame />} />
-        <Route path="/scoring-explanation" element={<ScoringExplanation isStandalone={true} />} />
-      </Routes>
+      <div>
+        <h1>DeVaKech - Derivative Sketching Challenge</h1>
+        <Routes>
+          <Route path="/" element={<PolynomialDerivativeGame />} />
+          <Route path="/scoring-explanation" element={<ScoringExplanation isStandalone={true} />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
